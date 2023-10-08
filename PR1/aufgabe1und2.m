@@ -12,7 +12,7 @@ disp(A);
 %Aufabe2
 %1.
 indexe = 2:2:size(A,2);
-abstract = A(:,indexe);
+abstract = A(1:2:end,indexe);
 disp('Die abstrahierte Matrix, wenn man nur jede 2. Stelle beachtet.');
 disp(abstract);
 
@@ -23,9 +23,9 @@ unterMatrix = A(indexeZeilen,indexeSpalten);
 disp('Die zu extrahierende Untermatrix.');
 disp(unterMatrix);
 
-%3.
-%Spaltenweise, sprich bei einer 3x3 Matrix, wäre A(1) das erste, A(3) das Elmement an der Stelle (3,1),
-%A(4) das Element an der Stelle (1,2) und A(9) das letzte Element
+% 3.
+% Spaltenweise, sprich bei einer 3x3 Matrix, wäre A(1) das erste, A(3) das Elmement an der Stelle (3,1),
+% A(4) das Element an der Stelle (1,2) und A(9) das letzte Element
 
-%4.
-%4 0 5 5 5
+% 4.
+% 4 0 5 5 5

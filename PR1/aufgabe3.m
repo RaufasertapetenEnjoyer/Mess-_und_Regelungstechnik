@@ -20,6 +20,6 @@ hold on;
 xSpanne = linspace(-1,1,50);
 plot(xSpanne, f3(xSpanne),'Marker','+','Color',[1 1 0]);
 
-legend('f(x) = 1/x^2', 'f2(x) = x^3', 'f(x) = cos(x)^4');
+legend('f1(x) = 1/x^2', 'f2(x) = x^3', 'f3(x) = cos(x)^4');
 
 hold on;

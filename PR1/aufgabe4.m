@@ -1,5 +1,5 @@
 [X,Y] = meshgrid(-pi:0.1:pi);
-Z = cos(X) * sin(Y)';
+Z = cos(X) .* sin(Y);
 
 
 subplot(1, 2, 1);
