@@ -80,7 +80,7 @@ type = 3; % 1 2 3
  %Gegendiagonale der Matrix, sprich Zussammenhang zwischen
  %Korrellationskoeffizienz und Kovarianz
  %je größer der Betrag der Werte auf Gegendiagonalen, desto größer die
- %Koeffizienten (oder andersherum) 
+ %Koeffizienten (oder anders herum) 
 
 
  % Zeichnen der Messwerte

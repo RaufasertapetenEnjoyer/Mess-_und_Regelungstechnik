@@ -20,7 +20,7 @@ end
 %Aufgabe1.3
 differenz = 1 - summeWahr;
 
-W = [1./12, 1./12, 1./12, 1./12, 1./6, 1./6 + differenz];
+W = [1./12, 1./12, 1./12, 1./12, 1./6, 1./6 + differenz]; % oder differenz durch n (= 6) teilen und auf jede Stelle addieren
 summeWahr = sum(W);
 
 if summeWahr == 1
