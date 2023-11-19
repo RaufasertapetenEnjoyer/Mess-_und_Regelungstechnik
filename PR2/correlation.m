@@ -1,3 +1,4 @@
+
 function output = correlation(x,y)
 meanX = mean(x);
 meanY = mean(y);

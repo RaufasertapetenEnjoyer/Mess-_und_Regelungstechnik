@@ -11,11 +11,14 @@ numSamples=100;
 % XY = [x1, y1;
 %       x2, y2;
 %       ....]
+
 type = 3; % 1 2 3
+
 
 [XY]=generateMeasurements(numSamples,type);
 
  % Mittelwert, Kovarianzmatrix und Korrelationskoeffizient berechnen
+
 
  %Aufgabe 2.1
  %Bei Type 1 sind die Werte rund um den wahren Wert kreisförmig verteilt. Es

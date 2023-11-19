@@ -1,3 +1,4 @@
+
 %Aufgabe 1.1
 %Mögliche Augenzahlen
 X = [1,2,3,4,5,6];
